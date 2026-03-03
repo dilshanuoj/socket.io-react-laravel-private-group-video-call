@@ -1,0 +1,166 @@
+/* Global styles for CallApp frontend */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f5f5f5;
+  color: #333;
+}
+
+/* Buttons used for calling actions */
+.call-button {
+  background-color: #4caf50;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.call-button:hover {
+  background-color: #45a049;
+}
+
+/* Banner shown when there is an incoming call */
+.incoming-call-banner {
+  background-color: #ffeb3b;
+  color: #000;
+  padding: 12px;
+  text-align: center;
+  font-weight: bold;
+}
+
+/* Utility spacing classes */
+.mt-1 { margin-top: 0.25rem; }
+.mt-2 { margin-top: 0.5rem; }
+.mb-1 { margin-bottom: 0.25rem; }
+.mb-2 { margin-bottom: 0.5rem; }
+
+/* Simple card container */
+.card {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  padding: 16px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+/* Form pages (login/register) */
+form {
+  max-width: 400px;
+  margin: 3rem auto;
+  padding: 2rem;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  display: flex;
+  flex-direction: column;
+}
+form h2 {
+  margin-bottom: 1rem;
+  text-align: center;
+}
+form input {
+  margin-bottom: 1rem;
+  padding: 0.75rem 1rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+form button {
+  padding: 0.75rem 1rem;
+  font-size: 1rem;
+  background-color: #1976d2;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+form button:hover {
+  background-color: #1565c0;
+}
+
+/* Table of users on home page */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+}
+table th,
+table td {
+  padding: 0.75rem;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+table th {
+  background-color: #f0f0f0;
+}
+
+/* Call status bars (incoming/calling/answered) */
+.call-status-bar {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #eee;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-top: 1px solid #ccc;
+}
+
+/* Incoming group call UI */
+.incoming-call-ui {
+  background: #ffeb3b;
+  padding: 1rem;
+  text-align: center;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* Video elements */
+video {
+  background: #000;
+  border: 1px solid #222;
+  border-radius: 4px;
+}
+
+/* Generic button utilities */
+.btn {
+  display: inline-block;
+  padding: 0.6rem 1.2rem;
+  font-size: 1rem;
+  font-weight: 500;
+  text-align: center;
+  text-decoration: none;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out, box-shadow 0.2s;
+}
+
+.btn:hover {
+  box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+}
+
+.btn-primary {
+  background-color: #1976d2;
+  color: #fff;
+}
+
+.btn-primary:hover {
+  background-color: #1565c0;
+}
+
+.btn-secondary {
+  background-color: #eee;
+  color: #333;
+}
+
+.btn-secondary:hover {
+  background-color: #ddd;
+}
+
+/* Utility classes already defined earlier (mt-1 etc) */
