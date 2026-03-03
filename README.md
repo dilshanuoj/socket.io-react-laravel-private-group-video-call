@@ -17,7 +17,7 @@ This project demonstrates scalable real-time architecture combining REST APIs an
 
 📡 ICE candidate exchange & SDP handling
 
-🟢 Online/offline user status
+🟢 Ringing/offline user status
 
 ⚡ Live connection state management
 
@@ -31,7 +31,7 @@ Realtime Server: Node.js + Socket.IO
 
 Media Streaming: WebRTC
 
-Database: MySQL
+Database: MySQL & Static Data
 
 Authentication: Laravel Sanctum / JWT
 
